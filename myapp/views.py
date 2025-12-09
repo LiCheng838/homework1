@@ -8,4 +8,5 @@ def test(request):
 def aweb(request):
     return HttpResponse("This is the aweb response.finish!")
 def bweb(request):
-    return HttpResponse("Hello, this is a bweb response.")
+    print("hello world")
+    return HttpResponse("Hello, this is a bweb response.完成!")
