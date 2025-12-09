@@ -5,4 +5,4 @@ def test(request):
     return HttpResponse("This is a test response.")
 
 def aweb(request):
-    return HttpResponse("This is the aweb response.")
+    return HttpResponse("This is the aweb response.finish!")
